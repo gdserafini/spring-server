@@ -1,17 +1,11 @@
-package com.gdserafini.spring_server.utils.entity;
+package com.gdserafini.springServer.utils.entity;
 
 import java.util.UUID;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter
-@Setter
-@NoArgsConstructor
 @MappedSuperclass
 public abstract class HashableEntity {
 
