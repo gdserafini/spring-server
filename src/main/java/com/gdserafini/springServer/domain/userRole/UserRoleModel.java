@@ -1,8 +1,9 @@
-package com.gdserafini.spring_server.domain.userRole;
+package com.gdserafini.springServer.domain.userRole;
 
-import com.gdserafini.spring_server.domain.role.RoleModel;
-import com.gdserafini.spring_server.domain.user.UserModel;
-import com.gdserafini.spring_server.utils.entity.HashableEntity;
+import com.gdserafini.springServer.domain.role.RoleModel;
+import com.gdserafini.springServer.domain.user.UserModel;
+import com.gdserafini.springServer.utils.entity.HashableEntity;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;

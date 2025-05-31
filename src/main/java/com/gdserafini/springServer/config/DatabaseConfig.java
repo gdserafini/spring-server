@@ -1,4 +1,4 @@
-package com.gdserafini.spring_server.config;
+package com.gdserafini.springServer.config;
 
 import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Value;

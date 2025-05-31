@@ -1,4 +1,4 @@
-package com.gdserafini.spring_server;
+package com.gdserafini.springServer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

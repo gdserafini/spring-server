@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gdserafini</groupId>
-	<artifactId>spring-server</artifactId>
+	<artifactId>springServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring Server</name>
 	<description>Template for a Spring Boot servers</description>

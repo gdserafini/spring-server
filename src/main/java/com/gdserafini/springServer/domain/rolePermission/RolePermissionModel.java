@@ -1,8 +1,9 @@
-package com.gdserafini.spring_server.domain.rolePermission;
+package com.gdserafini.springServer.domain.rolePermission;
 
-import com.gdserafini.spring_server.domain.permission.PermissionModel;
-import com.gdserafini.spring_server.domain.role.RoleModel;
-import com.gdserafini.spring_server.utils.entity.HashableEntity;
+import com.gdserafini.springServer.domain.permission.PermissionModel;
+import com.gdserafini.springServer.domain.role.RoleModel;
+import com.gdserafini.springServer.utils.entity.HashableEntity;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
