@@ -3,7 +3,7 @@ package com.gdserafini.spring_server.domain.user;
 import java.sql.Timestamp;
 import java.util.HashSet;
 import java.util.Set;
-import com.gdserafini.spring_server.domain.user_role.UserRoleModel;
+import com.gdserafini.spring_server.domain.userRole.UserRoleModel;
 import com.gdserafini.spring_server.utils.entity.HashableEntity;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

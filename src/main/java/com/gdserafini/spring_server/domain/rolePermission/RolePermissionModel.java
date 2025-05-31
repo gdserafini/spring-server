@@ -1,7 +1,7 @@
-package com.gdserafini.spring_server.domain.user_role;
+package com.gdserafini.spring_server.domain.rolePermission;
 
+import com.gdserafini.spring_server.domain.permission.PermissionModel;
 import com.gdserafini.spring_server.domain.role.RoleModel;
-import com.gdserafini.spring_server.domain.user.UserModel;
 import com.gdserafini.spring_server.utils.entity.HashableEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -10,15 +10,14 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "users_roles")
-public class UserRoleModel  extends HashableEntity {
+@Table(name = "roles_permissions")
+public class RolePermissionModel extends HashableEntity{
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id", nullable = false)
-    private UserModel user;
+    @JoinColumn(name = "permission_id", nullable = false)
+    private PermissionModel permission;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "role_id", nullable = false)
     private RoleModel role;
-
 }

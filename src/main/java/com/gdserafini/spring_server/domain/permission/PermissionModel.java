@@ -2,7 +2,7 @@ package com.gdserafini.spring_server.domain.permission;
 
 import java.util.HashSet;
 import java.util.Set;
-import com.gdserafini.spring_server.domain.role_permission.RolePermissionModel;
+import com.gdserafini.spring_server.domain.rolePermission.RolePermissionModel;
 import com.gdserafini.spring_server.utils.entity.HashableEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
